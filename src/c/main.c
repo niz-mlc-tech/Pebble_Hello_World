@@ -1,4 +1,5 @@
 #include <pebble.h>
+
 // Include the Pebble SDK header - gives us access to all Pebble functions and types
 
 static Window *s_main_window;
@@ -86,4 +87,5 @@ int main(void) {
   deinit();
   // After the event loop exits, clean up with deinit()
 }
+
 
